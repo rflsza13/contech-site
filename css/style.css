@@ -4,8 +4,7 @@ header {
 }
 
 body {
-    background-color: teal;
-    color: white;
+    background-color: hsl(180, 100%, 25%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -19,7 +18,8 @@ footer {
 }
 
 .capa {
-    background-color: black;
-    opacity: 65%;
+    background-color: #004d4d;
+    opacity: 90%;
+    color: white;
     text-align: center;
 }
