@@ -12,7 +12,7 @@
   /** Evento do botão quando o mouse esta em cima**/
   .btn-menu:hover {
     color: white;
-    background-color: hsl(180, 100%, 17%);
+    background-color: hsl(196, 100%, 18%);
     border-color: white;
   }
 /** Evento do botão quando selecionado **/

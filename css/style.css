@@ -1,16 +1,16 @@
 header {
-    background-color: #004d4d;
+    background-color: #00394D;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-color: hsl(180, 100%, 25%);
+    background-color: #005e80;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 footer {
-    color: #f8f9fa;
-    background-color: rgb(1, 80, 80);
+    color: lightgray;
+    background-color: #00394D;
     padding: 10px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,7 +18,7 @@ footer {
 }
 
 .capa {
-    background-color: #004d4d;
+    background-color: #00394D;
     opacity: 90%;
     color: white;
     text-align: center;
