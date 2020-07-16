@@ -1,10 +1,15 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: teal;
+}
+
+main {
+    background-color: darkcyan;
+    color: darkgray;
 }
 
 footer {
     color: lightgray;
-    background-color: #00394D;
+    background-color: #00111a;
     padding: 10px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
