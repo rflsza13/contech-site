@@ -13,48 +13,111 @@
   
   <body>
     <!-- Cabeçalho do site -->
-    <div class="card bg-dark text-white border-0">
-      <img src="img/bg-banner.jpg" class="card-img">
-      <div class="card-img-overlay">
-        <nav id="navbar" class="navbar navbar-dark" style="background-color: transparent;">
-          <img src="img/logo.png" width="120px">
-          <ul class="nav justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#servicos">Serviços</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#contato">Contato</a>
+    <header style="background-image: url(img/bg-banner.jpg); height: 625px;">
+      <nav id="navbar" class="navbar navbar-dark" style="background-color: transparent;">
+        <img src="img/logo.png" width="120px">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Home</a>
             </li>
-          </ul>
-        </nav>
-        <div class="container-fluid text-center text-light">
-          <div class="container">
-            <h1 style="padding: 100px; font-size: 53px;">Bem-Vindos a Contech Informática</h1>
-            <p class="sticky-bottom" style="font-size: 23px;">
-              Somos um grupo formado com profissionais especializados e dedicados <br>
-              em oferecer o melhor atendimento possível, <br>
-              focando em agilidade e excelência em executar seu chamado.
-            </p>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#servicos">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
+          <div class="container-fluid text-center text-light">
+            <div class="container">
+              <h1 class="text-wrap" style="padding: 80px; font-size: 53px;">Bem-Vindos a Contech Informática</h1>
+              <p class="text-wrap" style=" padding-top: 20px; font-size: 23px;">
+                Somos um grupo formado com profissionais especializados e dedicados <br>
+                em oferecer o melhor atendimento possível, <br>
+                focando em agilidade e excelência em resolver seus problemas.
+              </p>
+              <br>
+              <a type="button" href="#" class="btn btn-outline-light">Faça já seu orçamento</a>
+              <br>
+            </div>
           </div>
+    </header>
+    <div class="container-fluid text-center" id="servicos">
+      <br>
+      <hr class="featurette-divider">
+      <h2>Serviços</h2>
+      <br>
+      <!-- Categoria Assistência Técnica-->
+      <div class="row featurette text-center">
+        <div class="col-md-7 order-md-2">
+          <br>
+          <h2 class="featurette-heading">Assistência Técnica</h2>
+          <p class="lead">
+            Todo o tipo de manutenção para seu computador ou notebook: <br>
+            Formatações, atualizações, remoção de vírus, trocas de peças, limpezas <br>
+            e instalação de programas para deixar seu computador em pleno funcionamento.
+          </p>
+          <br>
+          <a type="button" href="#" class="btn btn-outline-dark">Saiba Mais</a>
+          <br>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="img/banner 1.jpg">
+        </div>
+      </div>
+      <!-- Separador -->
+      <br>
+      <hr class="featurette-divider">
+      <br>
+      <!-- Categoria Designer Gráfico-->
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Designer Gráfico</h2>
+          <p class="lead">
+            Criação de Logotipos e imagens para redes sociais, para você <br>
+            dar uma cara nova para a sua empresa ou organização e <br>
+            divulgar seus trabalhos nas redes sociais.
+          </p>
+          <br>
+          <a type="button" href="#" class="btn btn-outline-dark">Saiba Mais</a>
+          <br>
+        </div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="img/banner 2.jpg">
+        </div>
+      </div>
+      <!-- Separador -->
+      <br>
+      <hr class="featurette-divider">
+      <br>
+      <!-- Categoria Montagem de computadores-->
+      <div class="row featurette text-center">
+        <div class="col-md-7 order-md-2">
+          <br>
+          <h2 class="featurette-heading">Montagem de Computadores</h2>
+          <p class="lead align-middle">
+            Monte o seu computador do zero, seja para trabalho ou jogos. <br>
+            Montamos a configuração do seu computador de acordo com sua necessidade, <br>
+            Deixando ele completamente do seu jeito.
+          </p>
+          <br>
+          <a type="button" href="#" class="btn btn-outline-dark">Saiba Mais</a>
+          <br>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="img/banner 4.jpg">
         </div>
       </div>
     </div>
-    <div class="container-fluid ">
-      <br>
-      <div class="container text-center">
-        <h2 id="servicos">Serviços</h2>
-      </div>
-      <br>
-      <div class="container text-center">
-        <h2 id="contato">Contato</h2>
-      </div>
+    <!-- Separador -->
+    <br>
+    <hr class="featurette-divider">
+    <div class="container text-center">
+      <h2 id="contato">Contato</h2>
     </div>
+    <!-- Rodapé do site -->
+    <footer class="text-center">
+      Desenvolvido por Contech Informática®
+    </footer>
   </body>
-  <!-- Rodapé do site -->
-  <footer class="text-center">
-    Desenvolvido por Contech Informática®
-  </footer>
 </html>
