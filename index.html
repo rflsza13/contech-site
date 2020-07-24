@@ -2,122 +2,166 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Contech Informática</title>
     <meta charset="utf-8">
     <link rel="sortcut icon" type="image/gif" href="img/icone.png">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
   </head>
   
   
   <body>
-    <!-- Cabeçalho do site -->
-    <header style="background-image: url(img/bg-banner.jpg); height: 625px;">
-      <nav id="navbar" class="navbar navbar-dark" style="background-color: transparent;">
-        <img src="img/logo.png" width="120px">
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#servicos">Serviços</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#contato">Contato</a>
-          </li>
-        </ul>
-      </nav>
-          <div class="container-fluid text-center text-light">
-            <div class="container">
-              <h1 class="text-wrap" style="padding: 80px; font-size: 53px;">Bem-Vindos a Contech Informática</h1>
-              <p class="text-wrap" style=" padding-top: 20px; font-size: 23px;">
-                Somos um grupo formado com profissionais especializados e dedicados <br>
-                em oferecer o melhor atendimento possível, <br>
-                focando em agilidade e excelência em resolver seus problemas.
-              </p>
-              <br>
-              <a type="button" href="#" class="btn btn-outline-light">Faça já seu orçamento</a>
-              <br>
+    <div class="container-fluid text-center">
+      <!-- Cabeçalho do site -->
+      <header style="margin-top: 5px;">
+        <div style="background-image: url(img/bg-banner1.jpg); background-size: cover;">
+          <nav id="navbar" class="navbar navbar-dark" style="background-color: transparent;">
+            <img src="img/logo.png" width="135px">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#contato">Fale Conosco</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="square-rounded" style="padding: 122px;">
+            <h1 class="card-title"> Bem-Vindos a Contech Informática</h1>
+            <h5 class="card-text" style="padding-top: 25px;">
+              Somos um grupo formado com profissionais especializados e dedicados <br>
+              em oferecer o melhor atendimento possível, <br>
+              focando em agilidade e excelência em resolver seus problemas.
+            </h5>
+            <a type="button" href="#" class="btn btn-outline-light" style="margin: 50px;">Peça já seu orçamento</a>
+          </div>
+        </div>
+      </header>
+
+      <hr class="featurette-divider" style="background-color: teal; padding-top: 1px;">
+      <br>
+      <div class="container text-center" id="servicos">
+        <h2>Serviços</h2>
+        <br>
+        <!-- Categoria Assistência Técnica-->
+        <div class="row featurette text-center" style="padding: 30px;">
+          <div class="col-md-7 order-md-2">
+            <br>
+            <h2 class="featurette-heading">Assistência Técnica</h2>
+            <p class="lead">
+              Todo o tipo de manutenção para seu computador ou notebook: <br>
+              Formatações, atualizações, remoção de vírus, trocas de peças, limpezas <br>
+              e instalação de programas para deixar seu computador em pleno funcionamento.
+            </p>
+            <a type="button" href="#" class="btn btn-outline-light" style="margin-bottom: 25px;">Saiba Mais</a>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="img/banner 1.jpg">
+          </div>
+          <br>
+        </div>
+
+        <hr class="featurette-divider" style="background-color: teal;">
+
+        <!-- Categoria Designer Gráfico-->
+        <div class="row featurette" style="padding: 30px;">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Designer Gráfico</h2>
+            <p class="lead">
+              Criação de Logotipos e imagens para postagens em redes sociais, para<br>
+              dar uma cara nova para a sua empresa ou organização e <br>
+              divulgar seus trabalhos nas principais mídias sociais.
+            </p>
+            <a type="button" href="#" class="btn btn-outline-light" style="margin-bottom: 25px;">Saiba Mais</a>
+          </div>
+          <div class="col-md-5">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="img/banner 2.jpg">
+          </div>
+        </div>
+
+        <hr class="featurette-divider" style="background-color: teal;">
+
+        <!-- Categoria Montagem de computadores-->
+        <div class="row featurette text-center" style="padding: 30px;">
+          <div class="col-md-7 order-md-2">
+            <br>
+            <h2 class="featurette-heading">Montagem de Computadores</h2>
+            <p class="lead align-middle">
+              Monte o do zero ou faça um upgrade em seu computador, seja para trabalhar ou jogos mais pesados. <br>
+              Montamos a configuração do seu computador de acordo com sua necessidade, <br>
+              Deixando ele completamente do seu jeito.
+            </p>
+            <a type="button" href="#" class="btn btn-outline-light" style="margin-bottom: 25px;">Saiba Mais</a>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="img/banner 4.jpg">
+          </div>
+        </div>
+      </div>
+      <!-- Separador -->
+      <hr class="featurette-divider" style="background-color: teal; padding-top: 1px;">
+
+      <div class="container text-center">
+        <h2 id="contato">Fale Conosco</h2>
+        <br>
+        <h4>Agende sua visita, ou solicite seu orçamento aqui:</h4>
+        <div class="row featurette" style="padding: 30px;">
+          <div class="col-md-5">
+            <!--The div element for the map -->
+            <div id="map"></div>
+            <script>
+              // Initialize and add the map
+              function initMap() {
+                // The location of Uluru
+                var uluru = {lat: -23.0000277, lng: -47.4964239};
+                // The map, centered at Uluru
+                var map = new google.maps.Map(
+                    document.getElementById('map'), {zoom: 18, center: uluru});
+                // The marker, positioned at Uluru
+                var marker = new google.maps.Marker({position: uluru, map: map});
+              }
+            </script>
+            <script async defer
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjHXh0evs1Ac_8EhuSLIrfa3AGQDNElC0&callback=initMap">
+            </script>
+          </div>
+          <div class="col-md-7" style="margin-top: 30px;">
+            <h5>Contatos </h5>
+            <div class="row" style="margin-top: 20px;">
+              <img src="img/phone.png" width="30px" style="margin-right: 10px;">
+              <a href="tel:9999999999" style="color: lightgray;">
+                  (19) 98990-5823 </a>
+            </div>
+    
+            <div class="row" style="margin-top: 20px;">
+              <img src="img/email.png" width="30px" style="margin-right: 10px;">
+              <a href="mailto:contato@empresa.com" style="color: lightgray;">
+                  rafaelrodriguessouza10@gmail.com </a>
+            </div>
+
+            <div class="row" style="margin-top: 20px;">
+              <img src="img/facebook.png" width="30px" style="margin-right: 10px;">
+              <a href="https://www.facebook.com.br/contech-informatica" style="color: lightgray;" > 
+                  facebook.com/contech-informatica </a>
             </div>
           </div>
-    </header>
-    <div class="container-fluid text-center" id="servicos">
-      <br>
-      <hr class="featurette-divider">
-      <h2>Serviços</h2>
-      <br>
-      <!-- Categoria Assistência Técnica-->
-      <div class="row featurette text-center">
-        <div class="col-md-7 order-md-2">
-          <br>
-          <h2 class="featurette-heading">Assistência Técnica</h2>
-          <p class="lead">
-            Todo o tipo de manutenção para seu computador ou notebook: <br>
-            Formatações, atualizações, remoção de vírus, trocas de peças, limpezas <br>
-            e instalação de programas para deixar seu computador em pleno funcionamento.
-          </p>
-          <br>
-          <a type="button" href="#" class="btn btn-outline-dark">Saiba Mais</a>
-          <br>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="img/banner 1.jpg">
         </div>
       </div>
-      <!-- Separador -->
-      <br>
-      <hr class="featurette-divider">
-      <br>
-      <!-- Categoria Designer Gráfico-->
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Designer Gráfico</h2>
-          <p class="lead">
-            Criação de Logotipos e imagens para redes sociais, para você <br>
-            dar uma cara nova para a sua empresa ou organização e <br>
-            divulgar seus trabalhos nas redes sociais.
-          </p>
-          <br>
-          <a type="button" href="#" class="btn btn-outline-dark">Saiba Mais</a>
-          <br>
-        </div>
-        <div class="col-md-5">
-          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="img/banner 2.jpg">
-        </div>
-      </div>
-      <!-- Separador -->
-      <br>
-      <hr class="featurette-divider">
-      <br>
-      <!-- Categoria Montagem de computadores-->
-      <div class="row featurette text-center">
-        <div class="col-md-7 order-md-2">
-          <br>
-          <h2 class="featurette-heading">Montagem de Computadores</h2>
-          <p class="lead align-middle">
-            Monte o seu computador do zero, seja para trabalho ou jogos. <br>
-            Montamos a configuração do seu computador de acordo com sua necessidade, <br>
-            Deixando ele completamente do seu jeito.
-          </p>
-          <br>
-          <a type="button" href="#" class="btn btn-outline-dark">Saiba Mais</a>
-          <br>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="img/banner 4.jpg">
-        </div>
-      </div>
+      <!-- Rodapé do site -->
+      <footer class="text-center" style="padding: 20px;">
+        Desenvolvido por Contech Informática®
+      </footer>
     </div>
-    <!-- Separador -->
-    <br>
-    <hr class="featurette-divider">
-    <div class="container text-center">
-      <h2 id="contato">Contato</h2>
-    </div>
-    <!-- Rodapé do site -->
-    <footer class="text-center">
-      Desenvolvido por Contech Informática®
-    </footer>
   </body>
 </html>
