@@ -1,5 +1,10 @@
+header {
+    background-image: url(bg-banner1.jpg);
+    background-size: auto;
+}
+
 body {
-    background-image: url(fundo3.png);
+    background-image: url(fundo4.jpg);
     background-size: cover;
     background-repeat: repeat;
     color: lightgray;
